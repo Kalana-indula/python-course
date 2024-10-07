@@ -1,7 +1,7 @@
 try:
     age=int(input("How old are you ?"))
 except ValueError:
-    print("Wron type")
+    print("Wrong type")
     age=int(input("How old are you ?"))
 
 if(age>18):
